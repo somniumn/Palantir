@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palantir", "Palantir\Palantir.csproj", "{16837F4C-FC41-4041-9152-A50CDF6B34F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synapse", "..\Synapse\Synapse\Synapse.csproj", "{37E5BA9B-5FEC-4696-8B24-7DAEEE7ADDDC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Palantir.Setup", "Palantir.Setup\Palantir.Setup.vdproj", "{3F51D58F-3BBC-49F8-9907-1D62EDB1B9AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16837F4C-FC41-4041-9152-A50CDF6B34F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16837F4C-FC41-4041-9152-A50CDF6B34F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16837F4C-FC41-4041-9152-A50CDF6B34F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16837F4C-FC41-4041-9152-A50CDF6B34F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E5BA9B-5FEC-4696-8B24-7DAEEE7ADDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E5BA9B-5FEC-4696-8B24-7DAEEE7ADDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E5BA9B-5FEC-4696-8B24-7DAEEE7ADDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E5BA9B-5FEC-4696-8B24-7DAEEE7ADDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F51D58F-3BBC-49F8-9907-1D62EDB1B9AA}.Debug|Any CPU.ActiveCfg = Debug
+		{3F51D58F-3BBC-49F8-9907-1D62EDB1B9AA}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDEDED3E-B202-4764-94D0-85EC53156218}
+	EndGlobalSection
+EndGlobal

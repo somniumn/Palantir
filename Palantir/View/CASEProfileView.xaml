@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="Palantir.View.CASEProfileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Palantir.View"
+             mc:Ignorable="d" 
+             Background="White"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ScrollViewer>
+        <StackPanel Margin="5">
+            <Grid Margin="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="Auto" MinWidth="300" />
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="Auto" MinWidth="300" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Separator Grid.Row="0" Grid.ColumnSpan="2" Background="LightGray" />
+                <Label Grid.Row="1" Grid.Column="0" Content="업종" HorizontalContentAlignment="Left" />
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="TbSector" Text="통신 및 방송 장비 제조업" BorderThickness="0" />
+                <Separator Grid.Row="2" Grid.ColumnSpan="2" Background="LightGray" />
+                <Label Grid.Row="3" Grid.Column="0" Content="시가총액" HorizontalContentAlignment="Left" />
+                <TextBox Grid.Row="3" Grid.Column="1" x:Name="TbMarketCap" Text="2,805,797억원" BorderThickness="0" />
+                <Separator Grid.Row="4" Grid.ColumnSpan="2" Background="LightGray" />
+                <Label Grid.Row="5" Grid.Column="0" Content="52주 최저 / 최고" HorizontalContentAlignment="Left" />
+                <WrapPanel Grid.Row="5" Grid.Column="1" >
+                    <TextBox x:Name="TbLowHighIn52W" Text="37,450원 / 48,450원" BorderThickness="0" />
+                    <ProgressBar x:Name="PbStatusIn52W" Value="46000" Minimum="37450" Maximum="48450" Margin="5" Width="150" />
+                </WrapPanel>
+                <Separator Grid.Row="6" Grid.ColumnSpan="2" Background="LightGray" />
+                <Label Grid.Row="7" Grid.Column="0" Content="액면가" HorizontalContentAlignment="Left" />
+                <TextBox Grid.Row="7" Grid.Column="1" x:Name="TbFacePrice" Text="100원" BorderThickness="0" />
+                <Separator Grid.Row="8" Grid.ColumnSpan="2" Background="LightGray" />
+                <Label Grid.Row="9" Grid.Column="0" Content="회사주소" HorizontalContentAlignment="Left" />
+                <TextBox Grid.Row="9" Grid.Column="1" x:Name="TbAddress" Text="경기도 수원시 영통구 삼성로 129 (매탄동)" BorderThickness="0" />
+                <Separator Grid.Row="10" Grid.ColumnSpan="2" Background="LightGray" />
+                <Label Grid.Row="11" Grid.Column="0" Content="홈페이지" HorizontalContentAlignment="Left" />
+                <TextBox Grid.Row="11" Grid.Column="1" x:Name="TbHomepage" Text="http://www.samsung.com/sec/" BorderThickness="0" />
+                <Separator Grid.Row="12" Grid.ColumnSpan="2" Background="LightGray" />
+                <Label Grid.Row="13" Grid.Column="0" Content="태그" HorizontalContentAlignment="Left" />
+                <TextBox Grid.Row="13" Grid.Column="1" x:Name="TbTags" Text="" BorderThickness="0" />
+                <Separator Grid.Row="14" Grid.ColumnSpan="2" Background="LightGray" />
+                <Label Grid.Row="15" Grid.Column="0" Content="리스크" HorizontalContentAlignment="Left" />
+                <TextBox Grid.Row="15" Grid.Column="1" x:Name="TbRisk" Text="" BorderThickness="0" />
+                <Separator Grid.Row="16" Grid.ColumnSpan="2" Background="LightGray" />
+                <!-- second column -->
+                
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>
